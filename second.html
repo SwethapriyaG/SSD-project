@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .greenBtn:hover{
+            background-color: green;
+            border-color: green;
+        }
+        .greenBtn{
+            background-color: green;
+            border-color: green;
+        }
+        .greenLBtn:hover{
+            background-color: #198754;
+            border-color: #198754;
+        }
+        .greenLBtn{
+            background-color: #198754;
+            border-color: #198754;
+        }
+        .yellowBtn{
+            background-color: yellowgreen;
+            border-color: yellowgreen;
+        }
+        .yellowBtn:hover{
+            background-color: yellowgreen;
+            border-color: yellowgreen;
+        }
+        
+        .redBtn:hover{
+            background-color: red;
+            border-color: red;
+        }
+        .redBtn{
+            background-color: red;
+            border-color: red;
+        }
+        
+        .labelcontainer button{
+            position: relative;
+        }
+       
+        
+ .hidden{
+    display: none;
+ }
+    </style>
+  </head>
+  <body>
+
+    <div class="container pt-5" >
+        <button id="connect" class="btn btn-primary">Connect</button>
+    
+    <div id="print"></div>
+    <div id="show"></div>
+
+    <div class="row mt-5">
+        <div class="col-4 ext-center labelcontainer">
+           
+        <br>
+        <br>
+           
+        </div>
+
+        <div class="col-4 text-center mt-5 labelcontainer">
+            <h2>
+                Noise Sensor 
+                <br> <span id="co2Value"></span>
+            </h2>
+            <div id="coloredBox"  class="btn  rounded-pill"></div>     
+
+       
+    </div>
+    
+    
+</div>
+    
+    
+    <script type="module" src="./first.js"></script>
+  </body>
+</html>
+   
